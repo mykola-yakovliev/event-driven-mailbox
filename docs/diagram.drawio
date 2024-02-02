@@ -1,0 +1,59 @@
+<mxfile host="Electron" modified="2024-02-02T15:22:33.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="7Z0UqepEGgieJIYNvDf-" version="23.0.2" type="device">
+  <diagram name="Page-1" id="HimJbaRaWMQSYhDIMi6b">
+    <mxGraphModel dx="987" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5s6TRcjb2nrzO-TthONu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5s6TRcjb2nrzO-TthONu-1" target="5s6TRcjb2nrzO-TthONu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-8" value="Get mailbox credentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5s6TRcjb2nrzO-TthONu-7">
+          <mxGeometry x="-0.1304" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-1" value="Backend" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" vertex="1" parent="1">
+          <mxGeometry x="219.95" y="467" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5s6TRcjb2nrzO-TthONu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-28" value="Publish events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5s6TRcjb2nrzO-TthONu-27">
+          <mxGeometry x="-0.1966" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_outlook;" vertex="1" parent="1">
+          <mxGeometry x="690" y="470" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="219.95" y="300" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5s6TRcjb2nrzO-TthONu-9" target="5s6TRcjb2nrzO-TthONu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-11" value="Listen to new E-Mails" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5s6TRcjb2nrzO-TthONu-10">
+          <mxGeometry x="-0.2007" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-9" value="Frontend" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" vertex="1" parent="1">
+          <mxGeometry x="219.95" y="650" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-14" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Event_Grid_Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="479.95" y="470" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5s6TRcjb2nrzO-TthONu-1" target="5s6TRcjb2nrzO-TthONu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s6TRcjb2nrzO-TthONu-26" value="Listen to new E-Mails event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5s6TRcjb2nrzO-TthONu-25">
+          <mxGeometry x="-0.2756" y="1" relative="1" as="geometry">
+            <mxPoint x="29" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
