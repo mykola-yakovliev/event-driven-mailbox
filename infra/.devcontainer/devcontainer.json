@@ -1,0 +1,19 @@
+{
+  "name": "Infrastructure",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+      "vscode": {
+          "extensions": [
+              "hashicorp.terraform"
+          ],
+          "settings": {
+              "terraform.languageServer": {
+                  "enabled": true,
+                  "args": []
+              }
+          }
+      }
+  }
+}
